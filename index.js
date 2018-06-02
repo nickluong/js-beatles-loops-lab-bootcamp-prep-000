@@ -15,4 +15,11 @@ function johnLennonFacts(facts){
   return facts
 }
 
-function iLoveTheBeatles()
+function iLoveTheBeatles(times){
+  var arr = []
+  do{
+    arr.push("I love the Beatles!")
+    times++
+  }while(times < 15)
+  return arr
+}
